@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de porteros</title>
+    <link rel="Website Icon" type="png" href="../Imagenes/logo.png">
+    <link href="../css2-1?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../npm/bootstrap-icons%401.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="loginadmin.css">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="recipiente-btn">
+            <a href="../index.html"><button class="btn-volver"><i class="bi bi-arrow-left-circle" style="color: white;"></i></button></a>
+        </div>
+    </header>
+
+    <div class="container-form login hide">
+        <div class="information">
+            <div class="info-childs">                 
+                <img src="../Imagenes/logo.png" alt="logo">
+                <h2>Real pasion</h2>
+                <p>Ingresa para poder administrar la pagina principal y actualizar su contenido.(Acceso solo administadores).</p>
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar sesión</h2>
+                <p>Inicia sesión con tu usuario y contraseña</p>
+                <form class="form" method="post" autocomplete="off">
+                    <label>
+                        <i class="bi bi-person-fill"></i>
+                        <input type="text" placeholder="Usuario" name="usuario">
+                    </label>
+                    <label>
+                        <i class="bi bi-lock-fill"></i>
+                        <input type="password" placeholder="Contraseña" name="contraseña">
+                    </label>
+                    <input type="submit" value="Iniciar sesión" name="send">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
