@@ -789,7 +789,7 @@ a{
 
   .contenedor-skills {
     margin-top: 45px;
-    background: url(fondo2 real pasion.jpg);
+    background-image: url(fondo2 real pasion.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
